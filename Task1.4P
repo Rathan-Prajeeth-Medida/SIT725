@@ -1,0 +1,14 @@
+def greet_user(name):
+    print(f"Hello, {name}! Welcome to SIT725.")
+
+def main():
+    print("Welcome to Basic Programming!")
+    name = input("Enter your name: ")
+    greet_user(name)
+
+    print("Here's a simple loop from 1 to 5:")
+    for i in range(1, 6):
+        print(i)
+
+if __name__ == "__main__":
+    main()
